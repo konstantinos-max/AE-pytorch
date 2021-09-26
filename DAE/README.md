@@ -10,7 +10,7 @@ DAE-example.ipynb - code test for notebooks
 
 daedisaggregator.py - Tensorflow backend (NN based on keras utilities)
 
-daedisaggregator_pytorch.py - (NN based on Pytorch utilities)
+daedisaggregator_pytorch.py - (NN based on Pytorch utilities) --> This is old version!!!
 
 disag-out.h5 - h5 file for the resulting datastore
 

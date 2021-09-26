@@ -23,3 +23,5 @@ model-redd100.h5 - the file where the trained model is saved for later use
 redd-test.py - run the disaggregation code
 
 ukdale-test.py - run the dissagregation code for UKDALE dataset
+
+nilmtk-env-clone.yml - type: "conda env create -f nilmtk-env-clone.yml" in order to set the environment

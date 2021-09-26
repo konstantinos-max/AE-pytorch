@@ -12,6 +12,8 @@ daedisaggregator.py - Tensorflow backend (NN based on keras utilities)
 
 daedisaggregator_pytorch.py - (NN based on Pytorch utilities) --> This is old version!!!
 
+daedisaggregator_pytorch4.py - (Variational Autoencoder based on Pytorch utilities) --> UPDATED version
+
 disag-out.h5 - h5 file for the resulting datastore
 
 metrics.py - to serve model evaluation
@@ -19,3 +21,5 @@ metrics.py - to serve model evaluation
 model-redd100.h5 - the file where the trained model is saved for later use
 
 redd-test.py - run the disaggregation code
+
+ukdale-test.py - run the dissagregation code for UKDALE dataset

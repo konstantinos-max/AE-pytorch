@@ -5,7 +5,7 @@ from matplotlib import rcParams
 import matplotlib.pyplot as plt
 
 from nilmtk import DataSet, TimeFrame, MeterGroup, HDFDataStore
-from daedisaggregator_pytorch4 import DAEDisaggregator
+from vaedisaggregator_pytorch5 import DAEDisaggregator
 import metrics
 
 print("========== OPEN DATASETS ============")
@@ -23,7 +23,7 @@ test_elec = test.buildings[test_building].elec
 train_meter = train_elec.submeters()[meter_key]
 train_mains = train_elec.mains().all_meters()[0]
 test_mains = test_elec.mains().all_meters()[0]
-dae = DAEDisaggregator(100)
+dae = DAEDisaggregator(100) # or 250 or 500
 
 
 start = time.time()

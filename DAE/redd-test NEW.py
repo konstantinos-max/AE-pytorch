@@ -23,7 +23,7 @@ test_elec = test.buildings[test_building].elec
 train_meter = train_elec.submeters()[meter_key]
 train_mains = train_elec.mains().all_meters()[0]
 test_mains = test_elec.mains().all_meters()[0]
-dae = DAEDisaggregator(100) # or 250 or 500
+dae = DAEDisaggregator(100) # or 256 or 500
 
 
 start = time.time()

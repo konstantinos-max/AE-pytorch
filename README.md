@@ -1,1 +1,1 @@
-# AE-pytorch
+# VAE-PyTorch

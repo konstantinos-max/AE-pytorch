@@ -1,4 +1,4 @@
-# Denoising Autoencoder Energy Disaggregator
+# Variational Autoencoder (VAE) substituting a simple Denoising Autoencoder (DAE) for Energy Disaggregation
 
 As described in:
 

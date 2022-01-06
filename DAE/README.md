@@ -10,7 +10,7 @@ DAE-example.ipynb - code test for notebooks
 
 daedisaggregator.py - Tensorflow backend (NN based on keras utilities)
 
-daedisaggregator_pytorch.py - (NN based on Pytorch utilities) --> Not for use, it's an old version!!!
+daedisaggregator_pytorch.py - (NN based on Pytorch utilities) --> Still DAE, not VAE!!!
 
 daedisaggregator_pytorch4.py - (Variational Autoencoder based on Pytorch utilities) --> UPDATED version
 
